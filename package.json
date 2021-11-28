@@ -1,0 +1,15 @@
+{
+  "author": "Gnolod",
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "sectiVynasobCisla": "npx node 2020/01/sectiVynasobCisla.js"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "node": "^17.1.0"
+  },
+  "devDependencies": {
+    "npx": "^10.2.2"
+  }
+}
