@@ -9,7 +9,6 @@ const najdiSpravnouDvojiciCisel = (ocekavanySoucet, buff) => {
 
     for (const cisloZDat of zpracovanaData) {
         poleCisel.push(parseInt(cisloZDat));
-        poleCisel;
     }
 
     let serazenaCisla = poleCisel.sort((a, b) => a - b);
