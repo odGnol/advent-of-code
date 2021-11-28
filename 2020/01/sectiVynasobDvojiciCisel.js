@@ -3,7 +3,7 @@ import fs from "fs";
 let cilenySoucet = 2020;
 const buffer = fs.readFileSync("2020/01/dataset/vstupy.csv");
 
-const najdiSpravnouDvojiciCisel = (ocekavanySoucet, buff) => {
+const sectiVynasobDvojiciCisel = (ocekavanySoucet, buff) => {
     let poleCisel = [];
     let zpracovanaData = buff.toString().split('\n');
 
@@ -30,4 +30,4 @@ const najdiSpravnouDvojiciCisel = (ocekavanySoucet, buff) => {
     return [];
 }
 
-najdiSpravnouDvojiciCisel(cilenySoucet, buffer);
+sectiVynasobDvojiciCisel(cilenySoucet, buffer);

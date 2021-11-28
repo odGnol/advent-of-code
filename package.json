@@ -3,7 +3,8 @@
   "license": "ISC",
   "type": "module",
   "scripts": {
-    "sectiVynasobCisla": "npx node 2020/01/sectiVynasobCisla.js"
+    "sectiVynasobDvojiciCisel": "npx node 2020/01/sectiVynasobDvojiciCisel.js",
+    "sectiVynasobTrojiciCisel": "npx node 2020/02/sectiVynasobTrojiciCisel.js"
   },
   "dependencies": {
     "fs": "^0.0.1-security",
