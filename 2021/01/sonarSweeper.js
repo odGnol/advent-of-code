@@ -17,7 +17,7 @@ const indikatorRustuCisla = () => {
 }
 console.log(indikatorRustuCisla());
 
-const indikatorRustuSouctuTriTrojic = () => {
+const indikatorRustuSouctuTrojic = () => {
     let pocet = 0;
     let soucetTrojiceCisel = 0;
     let poleSouctu = [];
@@ -33,7 +33,7 @@ const indikatorRustuSouctuTriTrojic = () => {
     return pocet;
 }
 
-console.log(indikatorRustuSouctuTriTrojic());
+console.log(indikatorRustuSouctuTrojic());
 
 
 
